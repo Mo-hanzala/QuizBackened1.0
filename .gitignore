@@ -1,2 +1,42 @@
 # Project exclude paths
-/target/
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+
+# Build folders
+target/
+build/
+
+# Maven
+log/
+*.log
+dependency-reduced-pom.xml
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Java class files
+*.class
+
+# Environment or secret files
+.env
+*.key
+*.pem
+*.crt
+
+# Others
+*.swp
+*.tmp
